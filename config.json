@@ -1,0 +1,25 @@
+{
+  "name": "Ring Alarm HassIO Add-on",
+  "version": "1",
+  "slug": "ring_alarm",
+  "description": "Ring Alarm Plugin",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+      "mqtt_broker": "mqtt://XXX.XXX.XXX.XXX",
+      "mqtt_user": "alpha",
+      "mqtt_password": "mqttpassword",
+      "ring_username": "a@b.com",
+      "ring_password": "password",
+      "discovery": "true"
+  },
+  "schema": {
+      "mqtt_broker": "str",
+      "mqtt_user": "str?",
+      "mqtt_password": "str?", 
+      "ring_username": "str",
+      "ring_password": "str",
+      "discovery": "str"
+  },
+  "discovery": ["mqtt"]
+}

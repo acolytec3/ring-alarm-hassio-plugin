@@ -1,0 +1,21 @@
+{
+  "name": "ring-alarm-hassio-plugin",
+  "version": "0.0.1",
+  "description": "HassIO plugin for Ring Alarm",
+  "author": {
+    "name": "Some guy",
+    "email": "a@b.com"
+  },
+  "main": "mqttAlarm.js",
+  "license": "MIT",
+  "keywords": [
+    "ring",
+    "alarm"
+  ],
+  "dependencies": {
+    "debug": "^2.6.8",
+    "socket.io-client": "^2.1.1",
+    "mqtt":"^2.18.8",
+    "doorbot":"^5.4.0"
+  }
+}
