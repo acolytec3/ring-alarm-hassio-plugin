@@ -4,7 +4,7 @@
   "description": "HassIO plugin for Ring Alarm",
   "author": {
     "name": "AcolyteC3",
-    "email": "NA"
+    "email": "g@notmyemail.address"
   },
   "main": "mqttAlarm.js",
   "license": "MIT",

@@ -1,13 +1,5 @@
 #!/usr/bin/env node
 
-/* jshint esversion: 6, undef: true, unused: true, laxcomma: true */
-
-/*
- *
- * To use this: npm install mqtt async doorbot
- *
- */
-
 const RingAPI = require('./index.js');
 const mqtt = require('mqtt')
 const mqtt_username = process.env.MQTT_USER || '';
